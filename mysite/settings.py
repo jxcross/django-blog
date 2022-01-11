@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-7l8^j(&miy3!pf@w%p78@6kbr-p_m9yyh#yj+vy&nz+os(pfok
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -185,3 +185,29 @@ Migrations for 'blog':
   blog/migrations/0001_initial.py
     - Create model Post
 '''
+
+#GIT
+'''
+git init
+git config --global user.name "jxcross"
+git config --global user.email sghan73@naver.com
+.gitignore
+git status
+git add --all .
+git commit -m "My Django Girls app, first commit"
+
+git remote add origin https://github.com/jxcross/django-blog.git
+git push -u origin main
+'''
+
+'''
+echo "# django-blog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jxcross/django-blog.git
+git push -u origin main
+'''
+# git token
+#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
